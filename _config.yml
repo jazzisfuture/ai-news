@@ -1,0 +1,38 @@
+title: "AI 资讯日报"
+description: "每日自动抓取 AI 领域最新动态，涵盖模型、论文、工具、行业资讯"
+baseurl: "/ai-news"
+url: "https://jazzisfuture.github.io"
+
+remote_theme: just-the-docs/just-the-docs@v0.8.2
+
+color_scheme: dark
+
+search_enabled: true
+
+nav_sort: case_insensitive
+
+back_to_top: true
+back_to_top_text: "回到顶部"
+
+footer_content: "由 <a href=\"https://github.com/NousResearch/hermes-agent\">Hermes Agent</a> 自动生成"
+
+aux_links:
+  "GitHub":
+    - "https://github.com/jazzisfuture/ai-news"
+
+heading_anchors: true
+
+mermaid:
+  version: "10.8.0"
+
+callouts:
+  warning:
+    title: Warning
+    color: yellow
+  note:
+    title: Note
+    color: blue
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
